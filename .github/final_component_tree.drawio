@@ -1,0 +1,78 @@
+<mxfile host="65bd71144e">
+    <diagram id="5Z2yrtIK0jIKbO-WXidv" name="Page-1">
+        <mxGraphModel dx="877" dy="1317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="334" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="661.0000000000032" y="419.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="334" y="390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="To-Do" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="114" y="860" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Bio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="594" y="850" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Function HandleLogin - checks input username and password against data objects of UserLogin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="484" y="110" width="220" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&quot;Home&quot; route." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="174" y="150" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="useLocation to take in variable - allowing for specific user data." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="474" y="380" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="useNavigate" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="334" y="90" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="3 states:&amp;nbsp;&lt;br&gt;Person info&lt;br&gt;complete list&lt;br&gt;To-do list" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="647" y="360" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Passing Person info state down as a prop" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="534" y="690" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Passing 2 setStates as props: setList and setComplete" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="254" y="510" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Passing userData, complete list and to-do list variables down as props" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="174" y="640" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Import:&amp;nbsp;&lt;br&gt;userData from data.js&lt;br&gt;userLogin from data.js" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="124" y="40" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Import:&amp;nbsp;&lt;br&gt;userData from data.js" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="124" y="330" width="170" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

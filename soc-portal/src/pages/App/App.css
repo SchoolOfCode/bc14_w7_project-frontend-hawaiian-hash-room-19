@@ -1,0 +1,290 @@
+
+body {
+  background-color: #A9BCD0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  background-color: #A9BCD0;
+}
+
+/* LOGIN PAGE */
+
+#loginDiv {
+  background-color: #D9D9D9;
+  border: 1px solid #DDDDDD;
+  padding: 20px;
+  width: 300px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form label {
+  display: flex;
+  justify-content: space-between; 
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%; 
+}
+
+#form input[type="text"] {
+  flex: 1; 
+  padding: 5px;
+  border: 1px solid #CCCCCC;
+  margin-bottom: 20px;
+}
+
+#form input[type="password"] {
+  flex: 1; 
+  padding: 5px;
+  border: 1px solid #CCCCCC;
+  margin-bottom: 20px;
+}
+
+#form button[type="submit"] {
+  background-color: #14213D;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#form button[type="submit"]:hover {
+  background-color: #3E8E41;
+}
+
+
+.App {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+/* APPLICANT CARD */
+#pInfo {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  margin: 20px;
+  background-color: #D9D9D9;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#cardDetail {
+  margin-left: auto;
+}
+
+.bio-column {
+  flex: 0;
+  margin: 20px 0px 0px 0px;
+}
+
+#name {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#email {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#applicant {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#applicantId{
+  margin-bottom: 10px;
+}
+
+#profImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+/* LIST COLUMNS */
+.todolist-column {
+  width: 60%;
+  flex: 1;
+  margin: 20px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+#lists-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  width: 45%;
+  padding: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  background-color: #D9D9D9;
+  overflow-y: auto;
+  height: 80vh;
+}
+
+#toDoListDiv {
+  margin: 20px;
+}
+
+#completedListDiv {
+  margin: 20px;
+}
+
+/* LIST ITEMS */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #A9BCD0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  height: 80vh;
+}
+
+#ToDoListLi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #D9D9D9;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+#completedListLi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #D9D9D9;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.boxItems {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  order: 2;
+  width: 65%;
+  text-align: left;
+}
+
+.boxItems2 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  order: 2;
+  width: 100%;
+  text-align: left;
+}
+
+
+input[type="checkbox"] {
+  order: 1;
+}
+
+.date {
+  color: #777;
+  margin-left: 10px;
+}
+
+.clipboard {
+  background-color: #D9D9D9;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 400px;
+  margin: 0 auto;
+  height: 58.85vh;
+}
+
+.topClip{
+  background-color: #888888;
+  border-radius:30px 30px 0 0 ;
+  height: 30px;
+  margin: 0 auto;
+  position: relative;
+  width: 80px;
+}
+
+.hole{
+  background-color: #A9BCD0;
+  border-radius: 50px 50px 0 0;
+  height: 15px;
+  width: 50px;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+}
+
+.clip {
+  background-color: #888888;
+  border-radius: 0 0 5px 5px;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+  width: 150px;
+}
+
+.paper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: px 0;
+  height: 45vh;
+  text-align:center;
+}
+
+.paper h2 {
+  margin-top: 0;
+}
+
+.paper p {
+  margin: 10px 0;
+}
